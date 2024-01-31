@@ -1,5 +1,5 @@
 # https://leetcode.com/tag/sorting/
-from typing import List, Set, Any
+from typing import List, Any
 
 
 # https://leetcode.com/problems/3sum/
@@ -41,4 +41,3 @@ class Solution:
             if i == 0 or nums[i] != nums[i - 1]:
                 self.twoSum(nums, i)
         return self.res
-
