@@ -4,18 +4,11 @@ from typing import List, Any
 
 # https://leetcode.com/problems/3sum/
 
-# Runtime
-# 544
-# ms
-# Beats
-# 92.57%
-# of users with Python3
-# Memory
-# 20.36
-# MB
-# Beats
-# 93.69%
-# of users with Python3
+# Runtime: 544 ms
+# Beats 92.57% of users with Python3
+
+# Memory: 20.36 MB
+# Beats 93.69% of users with Python3
 
 class Solution:
     def __init__(self):
