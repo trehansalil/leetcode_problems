@@ -41,3 +41,4 @@ class Solution:
             if i == 0 or nums[i] != nums[i - 1]:
                 self.twoSum(nums, i)
         return self.res
+
