@@ -18,9 +18,7 @@ class Solution:
         hashmap = {}
         for num in nums:
             if num in hashmap:
-                hashmap[num] += 1
-                if hashmap[num] > 1:
-                    return True
+                return not self.ans_bool
             else:
                 hashmap[num] = 1
         return self.ans_bool
