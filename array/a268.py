@@ -4,9 +4,6 @@ from typing import List
 
 # https://leetcode.com/problems/missing-number/
 
-# Runtime: 97 ms
-# Beats 98.68% of users with Python3
-
 # Memory: 17.59 MB
 # Beats 99.86% of users with Python3
 
@@ -19,6 +16,10 @@ class Solution:
             self.np_int += 1
 
         return self.np_int
+
+
+# Runtime: 97 ms
+# Beats 98.68% of users with Python3
 
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
